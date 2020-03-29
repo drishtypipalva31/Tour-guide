@@ -37,4 +37,8 @@ public class Activity {
     public String toString() {
         return " name = " + name + ", duration (minutes) = " + duration ;
     }
+    public String toFileString(){
+	        return ""+this.getName()+","+this.getDuration()+System.getProperty("line.separator");
+    }
+
 }
